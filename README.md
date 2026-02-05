@@ -39,28 +39,17 @@ BaasHub allows customers to submit service requests, lodge complaints, and inter
 ---
 
 ## Key Features
+- Developed a **microservices platform** for managing customer services, contracts, complaints, and workers  
+- Implemented **secure authentication** with BCrypt and RESTful APIs using Spring Boot  
+- Integrated **Kafka** for real-time notifications and inter-service communication  
 - Customer registration and profile management  
 - Service listing and management  
 - Complaint tracking and resolution  
 - Worker management and task assignments  
-- Real-time notifications via Kafka  
 - Microservices architecture for modularity and scalability  
-
----
-
-## How to Run
-1. Clone each backend microservice repository.  
-2. Configure database connections for each service.  
-3. Start Kafka server for Notification Service.  
-4. Run each microservice individually (ports configured in each repo).  
-5. Clone and run the frontend application.  
-6. Access the system at `http://localhost:3000`.  
 
 ---
 
 ## Project Type
 - **Type:** Group Project  
-- **Contribution:** Developed Customer Microservice and half frontend  
-
----
-
+- **Contribution:** Developed Customer Microservice and core features of the frontend
